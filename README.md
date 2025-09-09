@@ -6,11 +6,14 @@ Welcome to the Zero Tools VCC Repository! This repository contains Unity tools a
 
 ### Add Repository to VCC
 
-**Click this link to automatically add this repository to your VRChat Creator Companion:**
+**🎯 [Click here for one-click VCC installation →](https://zerotw0016.github.io/ZeroVCC/add-to-vcc.html)**
 
-**[🔗 Add to VCC](vcc://vpm/addRepo?url=https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json)**
+**Manual installation - Copy and paste this URL into VCC:**
+```
+https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json
+```
 
-[![Add to VCC](https://img.shields.io/badge/Add%20to%20VCC-Repository-blue?style=for-the-badge&logo=unity)](vcc://vpm/addRepo?url=https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json)
+[![Add to VCC](https://img.shields.io/badge/Add%20to%20VCC-Repository-blue?style=for-the-badge&logo=unity)](https://zerotw0016.github.io/ZeroVCC/add-to-vcc.html)
 
 **Or manually add the repository URL:**
 ```
