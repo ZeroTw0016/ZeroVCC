@@ -31,30 +31,3 @@ After adding the repository to VCC:
 3. Find "Missing Scripts Finder" in the available packages
 4. Click the "+" button to install it
 5. The tool will be available under Tools > Zero in Unity
-
-## GitHub Setup Instructions
-
-To host this repository on GitHub:
-
-1. Create a new GitHub repository named `vcc-repository`
-2. Upload the contents of the `vcc-repository` folder
-3. Create a release for each package version:
-   - Tag: `missing-scripts-finder-1.0.0`
-   - Upload the zipped package as an asset
-4. Update the URLs in `index.json` to point to your GitHub username
-5. The repository URL will be: `https://raw.githubusercontent.com/YOUR_USERNAME/vcc-repository/main/index.json`
-
-## Package Development
-
-To add new packages or update existing ones:
-
-1. Update the package files in the appropriate folder
-2. Create a new zip file of the package
-3. Create a GitHub release with the zip file
-4. Update `index.json` with the new version information
-5. Users with the repository added will see updates in VCC
-
-## Support
-
-For issues or feature requests, please use the GitHub Issues page.
-
