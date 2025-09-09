@@ -8,7 +8,7 @@ This repository contains Unity Editor tools designed for VRChat development, com
 2. Go to Settings (gear icon)
 3. Click on "Packages" tab
 4. Click "Add Repository"
-5. Enter this URL: `https://raw.githubusercontent.com/YOUR_USERNAME/vcc-repository/main/index.json`
+5. Enter this URL: `https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json`
 6. Click "Add"
 
 ## Available Packages
@@ -57,3 +57,4 @@ To add new packages or update existing ones:
 ## Support
 
 For issues or feature requests, please use the GitHub Issues page.
+
