@@ -11,11 +11,6 @@ Welcome to the Zero Tools VCC Repository! This repository contains Unity tools a
 https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json
 ```
 
-**Or manually add the repository URL:**
-```
-https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json
-```
-
 ### Manual Installation Steps
 
 1. Open VRChat Creator Companion
