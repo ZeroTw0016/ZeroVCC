@@ -2,26 +2,21 @@
 
 Welcome to the Zero Tools VCC Repository! This repository contains Unity tools and utilities designed to enhance your development workflow.
 
-## 🚀 Quick Install
+## � Manual Repository Installation
 
-### Add Repository to VCC
-
-**Copy and paste this URL into VCC:**
-```
-https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json
-```
-
-### Manual Installation Steps
+To manually add this repository to VRChat Creator Companion:
 
 1. Open VRChat Creator Companion
 2. Go to "Settings" → "Packages" → "Add Repository"
-3. Paste the repository URL above
+3. Paste the following repository URL:
+   ```
+   https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json
+   ```
 4. Click "Add"
 
 ## 📦 Available Packages
 
 ### Missing Scripts Finder v1.0.0
-[![Install Package](https://img.shields.io/badge/Install-Missing%20Scripts%20Finder-green?style=flat-square)](vcc://vpm/addPackage?package=com.zero.missing-scripts-finder)
 
 A Unity Editor tool designed to find and remove missing scripts from GameObjects in the scene hierarchy.
 
