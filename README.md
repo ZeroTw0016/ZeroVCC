@@ -16,12 +16,13 @@ To manually add this repository to VRChat Creator Companion:
 
 ## 📦 Available Packages
 
-### Missing Scripts Finder v1.0.0
+### Zero Tools v1.0.0
 
-A Unity Editor tool designed to find and remove missing scripts from GameObjects in the scene hierarchy.
+A collection of Unity Editor tools including Missing Scripts Finder, VRChat VRAM Checker, and other optimization utilities.
 
 **Features:**
-- 🔍 Scene hierarchy scanning
+- 🔍 Missing Scripts Finder with scene hierarchy scanning
+- 📊 VRChat VRAM Checker for texture optimization
 - 🧹 Batch cleanup operations
 - 🎯 Individual object fixes
 - ✅ Safety confirmations and undo support
@@ -36,7 +37,8 @@ A Unity Editor tool designed to find and remove missing scripts from GameObjects
 After installing packages from this repository:
 
 1. **Missing Scripts Finder**: Access via `Tools > Zero > Open Missing Scripts Finder`
-2. Follow the tool-specific documentation for detailed usage instructions
+2. **VRChat VRAM Checker**: Access via `Tools > Zero > VRChat VRAM Checker`
+3. Follow the tool-specific documentation for detailed usage instructions
 
 ## 📋 Repository Information
 
