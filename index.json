@@ -1,31 +1,25 @@
 
-    "url":  "https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json",
-    "description":  "A VCC repository containing Unity tools and utilities by Zero",
-    "name":  "Zero Tools VCC Repository",
-    "author":  "Zero",
-    "packages":  {
-                     "com.zero.missing-scripts-finder":  {
-                                                             "versions":  {
-                                                                              "1.0.2":  {
-                                                                                            "url":  "https://github.com/ZeroTw0016/ZeroVCC/releases/download/v1.0.2/com.zero.missing-scripts-finder-1.0.2.zip",
-                                                                                            "description":  "A Unity Editor tool to find and remove missing scripts from GameObjects in the scene hierarchy.",
-                                                                                            "version":  "1.0.2",
-                                                                                            "zipSHA256":  "1eeaf444e1643a50db325aeb4dde6bef5cbe0784af5114a6ba8893cb388d055b",
-                                                                                            "author":  {
-                                                                                                           "name":  "Zero"
-                                                                                                       },
-                                                                                            "name":  "com.zero.missing-scripts-finder",
-                                                                                            "keywords":  [
-                                                                                                             "unity",
-                                                                                                             "editor",
-                                                                                                             "missing scripts",
-                                                                                                             "cleanup",
-                                                                                                             "tools"
-                                                                                                         ],
-                                                                                            "unity":  "2019.4",
-                                                                                            "displayName":  "Missing Scripts Finder"
-                                                                                        }
-                                                                          }
-                                                         }
-                 }
+  "name": "Zero Tools VCC Repository",
+  "author": "Zero",
+  "description": "A VCC repository containing Unity tools and utilities by Zero",
+  "url": "https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json",
+  "packages": {
+    "com.zero.missing-scripts-finder": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.zero.missing-scripts-finder",
+          "displayName": "Missing Scripts Finder",
+          "version": "1.0.0",
+          "description": "A Unity Editor tool to find and remove missing scripts from GameObjects in the scene hierarchy.",
+          "unity": "2019.4",
+          "author": {
+            "name": "Zero"
+          },
+          "keywords": ["unity", "editor", "missing scripts", "cleanup", "tools"],
+          "url": "https://github.com/ZeroTw0016/ZeroVCC/releases/download/v1.0.0/com.zero.missing-scripts-finder-1.0.0.zip",
+          "zipSHA256": "f7da13a4aff78be8853688ba9ee069d5b91167f8f5671d6d80244e78a67d8120"
+        }
+      }
+    }
+  }
 }
