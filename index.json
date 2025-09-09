@@ -1,7 +1,7 @@
 {
   "name": "Zero's Unity Tools Repository",
   "id": "com.zero.unity-tools",
-  "url": "https://raw.githubusercontent.com/YOUR_USERNAME/vcc-repository/main/index.json",
+  "url": "https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json",
   "author": "Zero",
   "description": "A collection of Unity Editor tools for VRChat development",
   "packages": {
@@ -27,7 +27,7 @@
           "dependencies": {},
           "vpmDependencies": {},
           "samples": [],
-          "url": "https://github.com/YOUR_USERNAME/vcc-repository/releases/download/missing-scripts-finder-1.0.0/com.zero.missing-scripts-finder-1.0.0.zip"
+          "url": "https://github.com/ZeroTw0016/ZeroVCC/releases/download/main/com.zero.zero-tools-1.0.0.zip"
         }
       }
     }
