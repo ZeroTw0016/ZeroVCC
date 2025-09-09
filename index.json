@@ -1,35 +1,31 @@
 {
-  "name": "Zero's Unity Tools Repository",
-  "id": "com.zero.unity-tools",
-  "url": "https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json",
-  "author": "Zero",
-  "description": "A collection of Unity Editor tools for VRChat development",
-  "packages": {
-    "com.zero.missing-scripts-finder": {
-      "versions": {
-        "1.0.0": {
-          "name": "com.zero.missing-scripts-finder",
-          "displayName": "Missing Scripts Finder",
-          "version": "1.0.0",
-          "description": "A Unity Editor tool to find and remove missing scripts from GameObjects in the scene hierarchy.",
-          "unity": "2019.4",
-          "author": {
-            "name": "Zero"
-          },
-          "keywords": [
-            "unity",
-            "editor",
-            "missing scripts",
-            "cleanup",
-            "tools"
-          ],
-          "category": "Tools",
-          "dependencies": {},
-          "vpmDependencies": {},
-          "samples": [],
-          "url": "https://github.com/ZeroTw0016/ZeroVCC/releases/download/main/com.zero.zero-tools-1.0.0.zip"
-        }
+   "url":"https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json",
+   "description":"A VCC repository containing Unity tools and utilities by Zero",
+   "name":"Zero Tools VCC Repository",
+   "author":"Zero",
+   "packages":{
+      "com.zero.missing-scripts-finder":{
+         "versions":{
+            "1.0.1":{
+               "url":"https://github.com/ZeroTw0016/ZeroVCC/releases/download/v1.0.1/com.zero.missing-scripts-finder-1.0.1.zip",
+               "description":"A Unity Editor tool to find and remove missing scripts from GameObjects in the scene hierarchy.",
+               "version":"1.0.1",
+               "zipSHA256":"91564a1502d4f7bd417c4a047102edf927ae017f066179df5db62b62ab278a8e",
+               "author":{
+                  "name":"Zero"
+               },
+               "name":"com.zero.missing-scripts-finder",
+               "keywords":[
+                  "unity",
+                  "editor",
+                  "missing scripts",
+                  "cleanup",
+                  "tools"
+               ],
+               "unity":"2019.4",
+               "displayName":"Missing Scripts Finder"
+            }
+         }
       }
-    }
-  }
+   }
 }
