@@ -4,20 +4,20 @@
   "description": "A VCC repository containing Unity tools and utilities by Zero",
   "url": "https://raw.githubusercontent.com/ZeroTw0016/ZeroVCC/main/index.json",
   "packages": {
-    "com.zero.missing-scripts-finder": {
+    "com.zero.zero-tools": {
       "versions": {
         "1.0.0": {
-          "name": "com.zero.missing-scripts-finder",
-          "displayName": "Missing Scripts Finder",
+          "name": "com.zero.zero-tools",
+          "displayName": "Zero Tools",
           "version": "1.0.0",
-          "description": "A Unity Editor tool to find and remove missing scripts from GameObjects in the scene hierarchy.",
+          "description": "A collection of Unity Editor tools including Missing Scripts Finder, VRChat VRAM Checker, and other optimization utilities.",
           "unity": "2019.4",
           "author": {
             "name": "Zero"
           },
-          "keywords": ["unity", "editor", "missing scripts", "cleanup", "tools"],
-          "url": "https://github.com/ZeroTw0016/ZeroVCC/releases/download/v1.0.0/com.zero.missing-scripts-finder-1.0.0.zip",
-          "zipSHA256": "f7da13a4aff78be8853688ba9ee069d5b91167f8f5671d6d80244e78a67d8120"
+          "keywords": ["unity", "editor", "missing scripts", "cleanup", "tools", "vrchat", "vram", "optimization", "texture analysis"],
+          "url": "https://github.com/ZeroTw0016/ZeroVCC/releases/download/v1.0.0/com.zero.zero-tools-1.0.0.zip",
+          "zipSHA256": "56baa7cb1cc62b8185e19cec11c98e8e4eec4c86a05f6d027eafa53a9ddd68b0"
         }
       }
     }
