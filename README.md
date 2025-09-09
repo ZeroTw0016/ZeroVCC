@@ -1,37 +1,59 @@
-# Missing Scripts Finder
+# Zero's Unity Tools VCC Repository
 
-A Unity Editor tool designed to find and remove missing scripts from GameObjects in the scene hierarchy.
+This repository contains Unity Editor tools designed for VRChat development, compatible with VRChat Creator Companion.
 
-## Features
+## How to Add This Repository to VCC
 
-- **Menu Integration**: Accessible via `Tools > Zero > Open Missing Scripts Finder`
-- **Scene Hierarchy Scanning**: Only scans objects in the current scene hierarchy
-- **Batch Operations**: Remove all missing scripts with one click
-- **Individual Fixes**: Fix specific objects one at a time
-- **Safety Features**: Confirmation dialogs and undo support
-- **Clean UI**: Intuitive interface with scrollable results
+1. Open VRChat Creator Companion
+2. Go to Settings (gear icon)
+3. Click on "Packages" tab
+4. Click "Add Repository"
+5. Enter this URL: `https://raw.githubusercontent.com/YOUR_USERNAME/vcc-repository/main/index.json`
+6. Click "Add"
 
-## How to Use
+## Available Packages
 
-1. Open the tool via `Tools > Zero > Open Missing Scripts Finder`
-2. Click "Scan for Missing Scripts" to find all objects with missing scripts
-3. Either:
-   - Click "Auto Fix" to remove all missing scripts at once
-   - Use individual "Fix" buttons for specific objects
-4. Confirm the action in the dialog that appears
+### Missing Scripts Finder v1.0.0
+- **Description**: Find and remove missing scripts from GameObjects in the scene hierarchy
+- **Menu Location**: Tools > Zero > Open Missing Scripts Finder
+- **Features**: 
+  - Scan scene hierarchy for missing scripts
+  - Auto-fix all missing scripts with one click
+  - Individual object fixes
+  - Undo support and confirmation dialogs
 
-## Requirements
+## Installation Instructions
 
-- Unity 2019.4 or later
-- Compatible with VRChat Creator Companion
+After adding the repository to VCC:
 
-## Installation
+1. Create a new VRChat project or open an existing one in VCC
+2. Go to "Manage Project"
+3. Find "Missing Scripts Finder" in the available packages
+4. Click the "+" button to install it
+5. The tool will be available under Tools > Zero in Unity
 
-Install this package through VRChat Creator Companion or manually place it in your project's Packages folder.
+## GitHub Setup Instructions
 
-## Version History
+To host this repository on GitHub:
 
-### 1.0.0
-- Initial release
-- Basic missing script detection and removal
-- Scene hierarchy support only
+1. Create a new GitHub repository named `vcc-repository`
+2. Upload the contents of the `vcc-repository` folder
+3. Create a release for each package version:
+   - Tag: `missing-scripts-finder-1.0.0`
+   - Upload the zipped package as an asset
+4. Update the URLs in `index.json` to point to your GitHub username
+5. The repository URL will be: `https://raw.githubusercontent.com/YOUR_USERNAME/vcc-repository/main/index.json`
+
+## Package Development
+
+To add new packages or update existing ones:
+
+1. Update the package files in the appropriate folder
+2. Create a new zip file of the package
+3. Create a GitHub release with the zip file
+4. Update `index.json` with the new version information
+5. Users with the repository added will see updates in VCC
+
+## Support
+
+For issues or feature requests, please use the GitHub Issues page.

@@ -1,0 +1,35 @@
+{
+  "name": "Zero's Unity Tools Repository",
+  "id": "com.zero.unity-tools",
+  "url": "https://raw.githubusercontent.com/YOUR_USERNAME/vcc-repository/main/index.json",
+  "author": "Zero",
+  "description": "A collection of Unity Editor tools for VRChat development",
+  "packages": {
+    "com.zero.missing-scripts-finder": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.zero.missing-scripts-finder",
+          "displayName": "Missing Scripts Finder",
+          "version": "1.0.0",
+          "description": "A Unity Editor tool to find and remove missing scripts from GameObjects in the scene hierarchy.",
+          "unity": "2019.4",
+          "author": {
+            "name": "Zero"
+          },
+          "keywords": [
+            "unity",
+            "editor",
+            "missing scripts",
+            "cleanup",
+            "tools"
+          ],
+          "category": "Tools",
+          "dependencies": {},
+          "vpmDependencies": {},
+          "samples": [],
+          "url": "https://github.com/YOUR_USERNAME/vcc-repository/releases/download/missing-scripts-finder-1.0.0/com.zero.missing-scripts-finder-1.0.0.zip"
+        }
+      }
+    }
+  }
+}
