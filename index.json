@@ -6,6 +6,19 @@
   "packages": {
     "com.zero.zero-tools": {
       "versions": {
+        "2.2.0": {
+          "name": "com.zero.zero-tools",
+          "displayName": "Zero Tools",
+          "version": "2.2.0",
+          "description": "A collection of Unity Editor tools including Missing Scripts Finder, VRChat VRAM Checker, Package Installer, and other optimization utilities. Requires Unity 2022.3.22f1 or newer for modern API support.",
+          "unity": "2022.3",
+          "author": {
+            "name": "Zero"
+          },
+          "keywords": ["unity", "editor", "missing scripts", "cleanup", "tools", "vrchat", "vram", "optimization", "texture analysis", "package installer", "vrcfury", "modular avatar", "d4rk avatar optimizer"],
+          "url": "https://github.com/ZeroTw0016/ZeroVCC/releases/download/v2.2.0/com.zero.zero-tools-2.2.0.zip",
+          "zipSHA256": "c21a8b69aa8377e0cd8376be99a1c4f603917011920ad27c4691f339c783dac4"
+        },
         "2.1.2": {
           "name": "com.zero.zero-tools",
           "displayName": "Zero Tools",
